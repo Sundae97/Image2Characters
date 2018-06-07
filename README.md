@@ -3,3 +3,4 @@ Image2Characters
 
 
 一段简单的图片转字符画的代码
+（初学C++）
