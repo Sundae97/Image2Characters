@@ -1,0 +1,3 @@
+C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/CMakeFiles/Image2Character.dir
+C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/CMakeFiles/rebuild_cache.dir

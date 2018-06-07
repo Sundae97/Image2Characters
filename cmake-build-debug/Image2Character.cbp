@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Image2Character"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv\;CMake Files\opencv\mingw64_build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Image2Character">
+				<Option output="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/opencv/mingw64_build"/>
+					<Add directory="D:/opencv/sources/include"/>
+					<Add directory="D:/opencv/sources/include/opencv"/>
+					<Add directory="D:/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/sources/modules/video/include"/>
+					<Add directory="D:/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\TDM-GCC-64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Image2Character/fast">
+				<Option output="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/opencv/mingw64_build"/>
+					<Add directory="D:/opencv/sources/include"/>
+					<Add directory="D:/opencv/sources/include/opencv"/>
+					<Add directory="D:/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/sources/modules/video/include"/>
+					<Add directory="D:/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\TDM-GCC-64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/main.cpp">
+			<Option target="Image2Character"/>
+		</Unit>
+		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
+		</Unit>
+		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
