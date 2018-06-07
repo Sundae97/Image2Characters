@@ -11,11 +11,13 @@ using namespace cv;
 void showImage(const char *winName, InputArray imgMat, int x, int y);
 void outToFile(const char *fileName, const string content);
 
-static const char codeLib[] = "@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
+const char codeLib[] = "@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
+const char *imgFileName = "20161023140920353.jpg";
+const char *outFileName = "test.txt";
 
 int main() {
     cout << strlen(codeLib) << " : " << codeLib << endl;
-    Mat srcImg = imread("20161023140920353.jpg");
+    Mat srcImg = imread(imgFileName);
     Mat grayImg;
     cvtColor(srcImg, grayImg, COLOR_RGB2GRAY);
 
@@ -32,7 +34,7 @@ int main() {
     }
 
     cout << str << endl;
-    outToFile("test.txt", str);
+    outToFile(outFileName, str);
     showImage("src", srcImg, 0, 0);
     showImage("gray", grayImg, 100, 100);
     waitKey(0);
