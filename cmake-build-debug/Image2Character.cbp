@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\opencv\;CMake Files\opencv\mingw64_build\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option working_dir="E:/CLionProjects/Image2Character/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Image2Character">
-				<Option output="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option output="E:/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/Image2Character/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="C:\TDM-GCC-64\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Image2Character/fast">
-				<Option output="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option output="E:/CLionProjects/Image2Character/cmake-build-debug/Image2Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/Image2Character/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -99,46 +99,46 @@
 					<Add directory="C:\TDM-GCC-64\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character/fast"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 Image2Character/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option working_dir="E:/CLionProjects/Image2Character/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug"/>
+				<Option working_dir="E:/CLionProjects/Image2Character/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/Sundae/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;E:/CLionProjects/Image2Character/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/main.cpp">
+		<Unit filename="E:/CLionProjects/Image2Character/main.cpp">
 			<Option target="Image2Character"/>
 		</Unit>
-		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/CMakeLists.txt">
+		<Unit filename="E:/CLionProjects/Image2Character/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig-version.cmake">
+		<Unit filename="E:/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
 		</Unit>
-		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig.cmake">
+		<Unit filename="E:/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
 		</Unit>
-		<Unit filename="C:/Users/Sundae/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVModules.cmake">
+		<Unit filename="E:/CLionProjects/Image2Character/opencv/mingw64_build/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\opencv\mingw64_build\"/>
 		</Unit>
 	</Project>
